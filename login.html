@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Log in</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220602102301">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo logo _icon-Logo"><span class="logo__text">Marico</span></div>
+				<div class="header__menu menu-header">
+					<nav class="menu-header__body">
+						<ul class="menu-header__list">
+							<li class="menu-header__item"><a href="" class="menu-header__link">Use Cases</a><button class="_icon-arr-down"></button></li>
+							<li class="menu-header__item"><a href="about-us.html" class="menu-header__link">About</a></li>
+							<li class="menu-header__item"><a href="pricing.html" class="menu-header__link">Pricing</a></li>
+							<li class="menu-header__item"><a href="blog.html" class="menu-header__link">Blog</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__buttons">
+					<a href="login.html" class="header__Login">Login</a>
+					<a href="signup.html" class="header__Sign-up">Sign Up</a>
+				</div>
+				<button type="button" class="icon-menu"><span></span></button>
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__fields fields">
+				<div class="fields__container">
+					<h1 class="fields__title">Log in</h1>
+					<div class="fields__text">Fill all field for create an account.</div>
+					<div class="fields__body">
+						<div class="fields__username"><input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Username" class="Input"><img src="img/signup/User.svg" alt="User"></div>
+						<div class="fields__password"><input autocomplete="off" type="password" name="form[]" data-error="Ошибка" placeholder="Password" class="Input"><button type="submit" class="eye__button"><img src="img/signup/Eye.svg" alt="Eye"></button></div>
+						<div class="fields__button_login"><button type="submit" class="fields__button login-button">Log in</button></div>
+					</div>
+				</div>
+			</div>
+			<div class="page__other-sign-up other-sign-up">
+				<div class="other-sign-up__container">
+					<div class="other-sign-up__text"><span>Or</span><br>Log in with...</div>
+					<div class="other-sign-up__body">
+						<button type="submit" class="other-sign-up__button">
+							<div class="other-sign-up__icon"><picture><source srcset="img/signup/Apple_logo.webp" type="image/webp"><img src="img/signup/Apple_logo.png" alt="Apple"></picture></div>
+							<div class="other-sign-up__text_button">Log in with Apple</div>
+						</button>
+						<button type="submit" class="other-sign-up__button">
+							<div class="other-sign-up__icon"><picture><source srcset="img/signup/Facebook.webp" type="image/webp"><img src="img/signup/Facebook.png" alt="Facebook"></picture></div>
+							<div class="other-sign-up__text_button">Log in with Facebook</div>
+						</button>
+						<button type="submit" class="other-sign-up__button">
+							<div class="other-sign-up__icon"><picture><source srcset="img/signup/G_logo.webp" type="image/webp"><img src="img/signup/G_logo.png" alt="Google"></picture></div>
+							<div class="other-sign-up__text_button">Log in with Google</div>
+						</button>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<a href="signup.html" class="footer__text">Don’t have an account? Create One.</a>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20220602102301"></script>
+</body>
+
+</html>
